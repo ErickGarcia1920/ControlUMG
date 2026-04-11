@@ -19,5 +19,3 @@ jobs:
       run: dotnet build test1.sln --no-restore
     - name: Test
       run: dotnet test test1.sln --no-build --verbosity normal
-
-Así quedaria en codigo
